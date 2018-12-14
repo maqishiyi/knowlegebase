@@ -8,3 +8,6 @@ example: demo1.c
 
 3. C语言如何使用读写锁
 同一时刻只能有一个线程获得写锁，同一时刻可以有多个线程获得读锁。
+pthread_rwlock_init
+pthread_rwlock_wrlock
+pthread_rwlock_rdlock
