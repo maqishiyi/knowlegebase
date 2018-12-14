@@ -11,3 +11,5 @@ example: demo1.c
 pthread_rwlock_init
 pthread_rwlock_wrlock
 pthread_rwlock_rdlock
+
+4. C语言如何使用自旋锁
