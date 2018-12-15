@@ -13,3 +13,15 @@ pthread_rwlock_wrlock
 pthread_rwlock_rdlock
 
 4. C语言如何使用自旋锁
+
+
+5. C语言线程属性如何运用
+pthread_attr_t   以分离状态创建线程，主线程不需要等待结束，线程自行结束
+另外可以设置线程的调度属性
+
+6. C语言线程同步属性
+pthread_mutexattr_t
+
+7. 线程和信号如何一起使用
+
+8. 守护进程
