@@ -8,3 +8,11 @@ maven 骨架生成项目速度慢的令人发指，都在Generating project in B
 idea连接mysql，view -> tool windows -> database -> mysql 
 download mysql driver
 test connection success
+
+4. http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd   uri is not registerd.
+按照提示,在File -> Settings ...Schemas and DTDs中将"http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd"复制进去即可
+
+5. mybatis generator配置
+驱动与IP地址要填写准确，创建和更新时间调用数据库内部函数now()
+
+6. mybatic plugin配置
