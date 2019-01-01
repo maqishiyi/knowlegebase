@@ -11,3 +11,5 @@
 ② http协议实现
 ③ websocket协议实现
 
+6. 把nginx搞明白，用go语言实现web服务器
+
